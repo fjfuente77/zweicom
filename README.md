@@ -23,6 +23,7 @@ La máquina donde se instalará debe tener instalado previamente:
 - Desplegar el servicio. Esto crea la imagen, levanta el servicio, corre un test y luego destruye el contenedor. En caso que el servicio no responda correctamente, el despliegue falla y se debe ejecutar el comando `make down` posteriormente.
 
     ```
+    cd zweicom
     make deploy
     ```
 
