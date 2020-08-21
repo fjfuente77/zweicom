@@ -7,20 +7,24 @@ Se incorporó gunicorn para levantar el servicio y que este pueda soportar concu
 ## Dependencias
 
 La máquina donde se instalará debe tener instalado previamente:
-    * Docker
-    * Makefile
-    * Curl
+
+    - Docker
+    - Makefile
+    - Curl
 
 ### Instalación
 
 - Descargar el repositorio.
 
+    ```
     git clone https://github.com/fjfuente77/zweicom.git
-
+    ```
 
 - Desplegar el servicio. Esto crea la imagen, levanta el servicio, corre un test y luego destruye el contenedor. En caso que el servicio no responda correctamente, el despliegue falla y se debe ejecutar el comando `make down` posteriormente.
 
+    ```
     make deploy
+    ```
 
 ## Ejecución
 
